@@ -1,0 +1,24 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		calculoExpoente()
+			}	
+	
+			funcao calculoExpoente(){	
+		inteiro base 
+		inteiro expoente
+			escreva("informe o numero base:\n")
+			leia(base)
+			escreva("informe o expoente:\n")
+			leia(expoente)
+		inteiro x
+		inteiro produto = base
+		para(x=1 ; x < expoente ; x++){
+				produto = produto * base
+	
+		}
+		escreva("base ",base, " com expoente ", expoente, " resulta em ",produto)
+	}		
+}
