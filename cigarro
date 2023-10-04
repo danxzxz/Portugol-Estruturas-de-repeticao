@@ -1,0 +1,19 @@
+<?php
+
+    $cigarro_dia = 10;
+    $tempo_fumado = readline("a quantos anos vc fuma?\n\n");
+    $minutos = 11;
+    $tempo_perdido = 0; //em minutos
+    $dias = 0;
+
+    $cigarros_fumados = $cigarro_dia * 365 * $tempo_fumado;
+    $tempo_perdido = $cigarros_fumados * $minutos;
+    $dias = $tempo_perdido / 60 / 24;
+
+    $dias = floor($dias);
+
+
+
+    print("voce perderá $dias dias de vida\n\n");
+
+
